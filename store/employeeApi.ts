@@ -4,7 +4,7 @@ export const employeeApi = createApi({
   reducerPath: "employeeApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`,
+    baseUrl: "/api",
     credentials: "include",
   }),
 

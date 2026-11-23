@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const notificationApi = createApi({
   reducerPath: "NotificationApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`,
+    baseUrl: "/api",
     credentials: "include",
   }),
   endpoints: (builder) => ({

@@ -5,7 +5,7 @@ export const employeeProfileApi = createApi({
   reducerPath: "employeeProfileApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`,
+    baseUrl: "/api",
     credentials: "include",
   }),
   tagTypes: ["EmployeeProfile"],
